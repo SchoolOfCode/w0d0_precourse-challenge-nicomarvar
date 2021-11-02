@@ -1,0 +1,97 @@
+
+html{
+  width:100%;
+  height:100%;
+}
+body{
+  width:100%;
+  height:100%;
+  margin:0;
+  background-color:#009999;
+}
+#main{
+  border-style:solid;
+  border-width:2px;
+  border-color:#d9d9d9;
+  width:90%;
+  margin-left:5%;
+  margin-bottom:2%;
+  margin-top:2%;
+  position:absolute;
+  background-color:white;
+}
+#image{
+ max-width:90%; 
+ width:90%; 
+ height:auto;
+ margin-top:10px;
+ margin-left:5%;
+ display:block;
+}
+#img-caption{
+  color:#666666;
+  text-align:right;
+  margin-right:5%;
+  line-height:1px;
+  font-family:'Sen', sans-serif;
+  font-size:1.8vw;
+}
+#title-line{
+  width:96%;
+  margin-left:2%;
+  border-width:1px;
+  border-color:#009999;
+  border-style:solid;
+  display:block;
+
+}
+#title{
+  color:#009999;
+  text-align:center;
+  font-size:11vw;
+  line-height:2px;
+  font-family: 'Tienne', serif;
+}
+#tribute-info{
+  width:98%;
+  margin-left:1%;  
+  text-align:justify;
+  font-size:2.2vw;
+  overflow:hidden;
+  font-family:'Sen', sans-serif;
+}
+#column-one{
+  margin-left:1%;
+  width:47%;
+  display:inline;
+  float:left;
+  font-size:2.2vw;
+}
+#column-one strong{
+  color:#009999;
+  text-decoration:underline;
+}
+#column-two{
+  margin-right:1%;
+  width:47%;
+  dsplay:inline;
+  float:right;
+  font-size:2.2vw;
+}
+
+#tribute-link{
+  color:#009999;
+  text-align:center;  
+  font-family: 'Tienne', serif;
+  font-size:3vw;
+}
+
+#tribute-link a{
+  text-decoration:none;
+}
+
+#tribute-link a:visited{
+  text-decoration:none;
+  color:#009999;
+}
+
